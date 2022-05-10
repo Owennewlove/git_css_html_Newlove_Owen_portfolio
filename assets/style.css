@@ -3,11 +3,26 @@ header {
     border: 1px solid red;
     height: 10vh;
 
+
 }
 
 nav {
     border: 1px solid black;
     height: 5vh;
+    
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-left: 50px;
 
 }
 
@@ -16,6 +31,9 @@ figure {
     height: 20 vh;
 }
 
+h1 {
+    margin-left: 400px;
+}
 
 .section-title {
     flex-basis: 20%;
@@ -43,18 +61,17 @@ figure {
 
 #work {
     border: 1px solid green;
-    height: 150 vh;
+    height: 150vh;
 }
 
-#contactMe {
+#contact {
     border: 1px solid purple;
     height: 20vh;
 }
 
-#aboutMe, #work, #contactMe {
+#aboutMe, #work, #contact{
     display: flex;
     flex-wrap: wrap;
-
 
 }
 
