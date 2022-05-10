@@ -1,0 +1,22 @@
+
+header {
+    border: 1px;
+    height: 10vh;
+
+}
+
+nav {
+    border: 1px;
+
+}
+
+figure {
+    border: 1px;
+    height: 20 vh;
+}
+
+
+.aboutMe {
+    display: flex;
+
+}
