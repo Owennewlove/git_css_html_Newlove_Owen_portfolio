@@ -1,22 +1,59 @@
 
 header {
-    border: 1px;
+    border: 1px solid red;
     height: 10vh;
 
 }
 
 nav {
-    border: 1px;
+    border: 1px solid black;
+    height: 5vh;
 
 }
 
 figure {
-    border: 1px;
+    border: 1px solid orange;
     height: 20 vh;
 }
 
 
-.aboutMe {
+.title {
+    flex-basis: 20%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: aqua;
+}
+
+.mainContent {
+    flex-basis: 80%;
     display: flex;
+    flex-wrap: wrap;
 
 }
+
+
+
+
+
+
+#aboutMe {
+    border: 1px solid blue;
+    height: 30vh;
+}
+
+#work {
+    border: 1px solid yellow;
+    height: 150 vh;
+}
+
+#contact {
+    border: 1px solid purple;
+    height: 20vh;
+}
+
+#aboutMe, #work, #contact {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
