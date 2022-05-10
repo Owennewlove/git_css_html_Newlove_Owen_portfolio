@@ -17,14 +17,14 @@ figure {
 }
 
 
-.title {
+.section-title {
     flex-basis: 20%;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: aqua;
 }
 
-.mainContent {
+.section-mainContent {
     flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -42,18 +42,19 @@ figure {
 }
 
 #work {
-    border: 1px solid yellow;
+    border: 1px solid green;
     height: 150 vh;
 }
 
-#contact {
+#contactMe {
     border: 1px solid purple;
     height: 20vh;
 }
 
-#aboutMe, #work, #contact {
+#aboutMe, #work, #contactMe {
     display: flex;
     flex-wrap: wrap;
+
 
 }
 
