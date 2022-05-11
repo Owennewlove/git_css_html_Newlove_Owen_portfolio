@@ -9,6 +9,11 @@ header {
 
 
 }
+footer {
+    border: 1px solid pink;
+    height: 10vh;
+
+}
 
 nav {
     border: 1px solid black;
@@ -53,6 +58,19 @@ h2 {
     
 }
 
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 10px 450px;
+}
+
+p {
+    margin: 3px;
+}
+
+
 .section-title {
     flex-basis: 20%;
     border-right-style: solid;
@@ -71,12 +89,9 @@ h2 {
 
 
 
-
-
-
 #aboutMe {
     border: 1px solid blue;
-    height: 30vh;
+    height: 40vh;
 }
 
 #work {
