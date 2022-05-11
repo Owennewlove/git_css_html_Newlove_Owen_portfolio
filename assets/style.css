@@ -3,6 +3,7 @@
     font-family: 'Avenir';
     src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
 }
+
 header {
     border: 1px solid red;
     height: 10vh;
@@ -55,7 +56,8 @@ h1 {
 
 h2 {
     font-size: 35px;
-    margin: 75px 20px;
+    text-align: center;
+    margin-top: 20px;
     font-family: 'Avenir';
     color: rgb(12, 184, 138);
     font-weight: 200;
