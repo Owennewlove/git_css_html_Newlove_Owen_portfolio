@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
 header {
     border: 1px solid red;
     height: 10vh;
@@ -40,11 +44,22 @@ h1 {
     margin-left: 400px;
 }
 
+h2 {
+    font-size: 35px;
+    margin: 75px 20px;
+    font-family: 'Avenir';
+    color: rgb(12, 184, 138);
+    font-weight: 200;
+    
+}
+
 .section-title {
     flex-basis: 20%;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: aqua;
+    background-color: #faf0caff;
+    
 }
 
 .section-mainContent {
