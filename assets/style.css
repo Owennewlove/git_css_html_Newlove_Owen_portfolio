@@ -1,4 +1,8 @@
 
+header, body, footer {
+    background-color: #faf0caff;
+}
+
 @font-face {
     font-family: 'Avenir';
     src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
@@ -40,18 +44,10 @@ nav ul li {
 
 }
 
-figure {
-    border: 1px solid orange;
-    height: 20 vh;
-}
 
-figure img {
-    max-width: 99vw;
-
-}
 
 h1 {
-    margin-left: 400px;
+    text-align: center;
 }
 
 h2 {
@@ -65,7 +61,8 @@ h2 {
 }
 
 h3 {
-    margin: 5px;
+    margin: 5px 2px;
+    color: #e5625eff;
 }
 
 h4 {
@@ -77,13 +74,21 @@ p {
     margin: 3px;
 }
 
+.firstImage figure {
+    border: 1px solid orange;
+    height: 20 vh;
+}
+
+.firstImage figure img {
+    width: 99vw;
+}
 
 .section-title {
     flex-basis: 20%;
     border-right-style: solid;
-    border-right-width: 1px;
+    border-right-width: 6px;
     border-right-color: aqua;
-    background-color: #faf0caff;
+
     
 }
 
@@ -94,7 +99,30 @@ p {
 
 }
 
+.smaller-picture figure {
+    height: 38vh;
+    width: 30vw;
 
+}
+.smaller-picture img {
+    width: 100%;
+    height: 100%;
+    margin: 2px 8px;
+
+
+}
+
+.section-mainContent figure {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+#firstWorkPicture {
+    min-width: 79vw;
+}
 
 #aboutMe {
     border: 1px solid blue;
@@ -116,4 +144,3 @@ p {
     flex-wrap: wrap;
 
 }
-
