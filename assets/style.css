@@ -34,7 +34,6 @@ nav {
 nav ul {
     display: flex;
     justify-content: flex-end;
-
     list-style: none;
 
 }
@@ -68,6 +67,7 @@ h3 {
 h4 {
     text-align: center;
     margin: 10px 0px;
+    font-size: 25px;
 }
 
 p {
