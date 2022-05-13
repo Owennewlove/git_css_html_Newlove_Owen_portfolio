@@ -48,7 +48,7 @@ h1 {
 h2 {
     font-size: 45px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Avenir';
     color: rgb(12, 184, 138);
     font-weight: 200;
@@ -56,7 +56,7 @@ h2 {
 }
 
 h3 {
-    margin: 5px 15px;
+    margin: 35px 15px;
     color: #e5625eff;
     font-size: 30px;
 }
@@ -72,11 +72,6 @@ p {
     font-size: 25px;
 }
 
-.section-mainContent ul {
-    margin: 40px 25px;
-    font-size: 25px;
-    list-style: none;
-}
 
 .firstImage figure {
 
@@ -124,6 +119,18 @@ p {
     width: 90%;
     height: 90%;
     margin: 5px 0px 5px 26px;
+}
+
+.section-mainContent ul {
+    margin: 0px 25px;
+    font-size: 25px;
+    list-style: none;
+
+}
+
+.section-mainContent ul li {
+    padding-top: 40px;
+
 }
 
 
