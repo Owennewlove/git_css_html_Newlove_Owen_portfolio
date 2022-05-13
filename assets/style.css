@@ -9,13 +9,11 @@ header, body, footer {
 }
 
 header {
-    border: 1px solid red;
     height: 10vh;
 
 
 }
 footer {
-    border: 1px solid pink;
     height: 10vh;
 
 }
@@ -25,31 +23,30 @@ footer p {
 }
 
 nav {
-    border: 1px solid black;
     height: 5vh;
-    
-
 }
 
 nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    font-size: 25px;
 
 }
 
 nav ul li {
-    margin-left: 50px;
+    margin: 0px 50px;
 
 }
 
 
 h1 {
     text-align: center;
+    margin-top: 40px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     margin-top: 20px;
     font-family: 'Avenir';
@@ -75,14 +72,14 @@ p {
     font-size: 25px;
 }
 
-ul {
-    margin: 15px 25px;
+.section-mainContent ul {
+    margin: 40px 25px;
     font-size: 25px;
     list-style: none;
 }
 
 .firstImage figure {
-    border: 1px solid orange;
+
     height: 20 vh;
 }
 
@@ -96,9 +93,15 @@ ul {
     flex-basis: 20%;
     border-right-style: solid;
     border-right-width: 6px;
-    border-right-color: aqua;
+    border-right-color: #155ea2ff;;
 
     
+}
+
+.section-title img {
+    margin: 10px 60px;
+    width: 60%;
+    height: 60%;
 }
 
 .section-mainContent {
@@ -120,26 +123,32 @@ ul {
 .section-mainContent figure img {
     width: 90%;
     height: 90%;
-    margin: 2px 8px;
+    margin: 5px 0px 5px 26px;
 }
 
 
 #firstWorkPicture {
-    min-width: 79vw;
+    width: 79vw;
+    height: 40vh;
+
+}
+
+#firstWorkPicture img {
+    width: 100%;
+    height: 100%;
+    margin: 25px 30px 5px;
+
 }
 
 #aboutMe {
-    border: 1px solid blue;
     height: 40vh;
 }
 
 #work {
-    border: 1px solid green;
     height: 150vh;
 }
 
 #contact {
-    border: 1px solid purple;
     height: 20vh;
 }
 
