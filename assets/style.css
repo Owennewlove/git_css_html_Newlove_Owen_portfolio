@@ -83,15 +83,14 @@ p {
     width: 100%;
     height: 100%;
 }
-.firstWorkPicture {
-    height: 20vh;
-    width: 80vh;
-}
+
 
 .section-mainContent figure img {
     width: 90%;
     height: 90%;
+    margin: 2px 8px;
 }
+
 
 .section-title {
     flex-basis: 20%;
@@ -110,18 +109,7 @@ p {
 
 }
 
-.smaller-picture figure {
-    height: 38vh;
-    width: 30vw;
 
-}
-.smaller-picture img {
-    width: 100%;
-    height: 100%;
-    margin: 2px 8px;
-
-
-}
 
 .section-mainContent figure {
     display: flex;
