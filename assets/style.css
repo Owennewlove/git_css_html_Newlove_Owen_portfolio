@@ -34,7 +34,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: flex-end;
-    padding: 2px;
+
     list-style: none;
 
 }
@@ -43,7 +43,6 @@ nav ul li {
     margin-left: 50px;
 
 }
-
 
 
 h1 {
