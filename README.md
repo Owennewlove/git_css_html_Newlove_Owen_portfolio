@@ -27,7 +27,8 @@ https://github.com/Owennewlove/git_css_html_code_refactory_hw1
 
 
     ```md
-![alt text](assets/images/Website.png)
+![alt text](assets/images/websiteScreenshot.png)
+
     ```
 
 ## Credits
