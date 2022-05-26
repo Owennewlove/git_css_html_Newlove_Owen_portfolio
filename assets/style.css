@@ -252,7 +252,7 @@ p {
     }
     
     h3 {
-        margin: 35px 15px;
+        margin: 25px 15px 5px;
         color: #e5625eff;
         font-size: 20px;
     }
@@ -265,7 +265,7 @@ p {
     
     p {
         margin: 3px 15px;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     nav ul {
