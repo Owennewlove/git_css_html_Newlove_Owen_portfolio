@@ -209,6 +209,13 @@ p {
     
     }
 
+    .smaller-picture {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 40%;
+    
+    }
+
     .section-title img {
         margin: 10px 60px;
         width: 30%;
@@ -216,9 +223,9 @@ p {
     }
 
     .section-mainContent figure img {
-        width: 45%;
-        height: 45%;
-        margin: 5px 0px 5px 26px;
+        width: 40%;
+        height: 40%;
+        margin: 5px 0px 5px 20px;
     }
 }
 
