@@ -43,6 +43,7 @@ nav ul li {
 h1 {
     text-align: center;
     margin-top: 40px;
+    font-family: 'Avenir';
 }
 
 h2 {
@@ -59,6 +60,7 @@ h3 {
     margin: 35px 15px;
     color: #e5625eff;
     font-size: 30px;
+    font-family: 'Avenir';
 }
 
 h4 {
@@ -69,7 +71,8 @@ h4 {
 
 p {
     margin: 3px 15px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Avenir';
 }
 
 
