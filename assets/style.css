@@ -209,36 +209,40 @@ p {
     
     }
 
-    .smaller-picture {
-        display: flex;
-        flex-wrap: wrap;
-        flex-basis: 40%;
-    
-    }
-
     .section-title img {
         margin: 10px 60px;
         width: 30%;
         height: 30%;
     }
 
+    .smaller-picture {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 40%;
+        margin-bottom: 20px;
+ 
+    
+    }
+
     .section-mainContent figure img {
-        width: 40%;
-        height: 40%;
-        margin: 5px 0px 5px 20px;
+        width: 90%;
+        height: 90%;
+        margin: 0px 10px 50px 100px;
     }
 }
 
 @media screen and (max-width:768px) {
 
 
+    
     h1 {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 15px;
+        font-size: 25px;
     }
     
     h2 {
-        font-size: 15px;
+        font-size: 30px;
         text-align: center;
         margin-top: 10px;
         font-family: 'Avenir';
@@ -250,22 +254,27 @@ p {
     h3 {
         margin: 35px 15px;
         color: #e5625eff;
-        font-size: 12px;
+        font-size: 20px;
     }
     
     h4 {
         text-align: center;
         margin: 10px 0px;
-        font-size: 10px;
+        font-size: 20px;
     }
     
     p {
         margin: 3px 15px;
-        font-size: 8px;
+        font-size: 16px;
     }
 
     nav ul {
-        font-size: 8px;
+        font-size: 15px;
+    }
+
+    nav ul li {
+        margin: 10px 30px;
+    
     }
 
     .section-title img {
@@ -274,12 +283,20 @@ p {
         height: 30%;
     }
 
-    .section-mainContent figure img {
-        width: 25%;
-        height: 25%;
-        margin: 5px 0px 5px 26px;
+    .smaller-picture {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 40%;
+        margin-bottom: 20px;
+ 
+    
     }
 
+    .section-mainContent figure img {
+        width: 90%;
+        height: 90%;
+        margin: 0px 10px 50px 100px;
+    }
     
 }
 
