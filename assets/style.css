@@ -375,7 +375,7 @@ p {
     .smaller-picture {
         display: flex;
         flex-wrap: wrap;
-        flex-basis: 40%;
+        flex-basis: 60%;
         margin-bottom: 20px;
  
     
@@ -405,4 +405,3 @@ p {
 }
     
 
-}
