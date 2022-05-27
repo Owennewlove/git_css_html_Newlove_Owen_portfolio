@@ -126,10 +126,13 @@ p {
     display: flex;
     flex-wrap: wrap;
 
+
 }
 
 /* The 4 smaller images on the site*/
-
+.smaller-picture {
+    justify-content: center;
+}
 .section-mainContent figure img {
     width: 90%;
     height: 90%;
