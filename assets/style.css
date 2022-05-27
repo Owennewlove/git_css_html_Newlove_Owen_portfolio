@@ -150,13 +150,13 @@ p {
 
 /* This is the top large image in the work section*/
 
-#firstWorkPicture {
+#firstWorkPicture a {
     width: 79vw;
     height: 40vh;
 
 }
 
-#firstWorkPicture img {
+#firstWorkPicture a img {
     width: 100%;
     height: 100%;
     margin: 25px 30px 5px;
@@ -327,7 +327,7 @@ p {
     
     }
 
-    #firstWorkPicture img {
+    #firstWorkPicture a img {
         width: 100%;
         height: 100%;
         margin: 25px 5px 5px;
@@ -413,7 +413,7 @@ p {
     
     }
 
-    #firstWorkPicture img {
+    #firstWorkPicture a img {
         width: 100%;
         height: 100%;
         margin: 25px 3px 5px;
