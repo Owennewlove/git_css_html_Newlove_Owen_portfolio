@@ -1,12 +1,15 @@
 
+/* sets the background color for the entirety of the website*/
+
 header, body, footer {
     background-color: #faf0caff;
 }
-
+/* Adds Avenir as a font*/ 
 @font-face {
     font-family: 'Avenir';
     src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
 }
+
 
 header {
     height: 10vh;
@@ -26,6 +29,7 @@ nav {
     height: 5vh;
 }
 
+/* Pushes the text in the nav bar to the end and sets the font size */
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -33,18 +37,20 @@ nav ul {
     font-size: 25px;
 
 }
-
+/* Adds spacing in between the texts in the nav bar*/
 nav ul li {
     margin: 0px 50px;
 
 }
 
-
+/* This is the very top where it says Owen Newlove*/
 h1 {
     text-align: center;
     margin-top: 40px;
     font-family: 'Avenir';
 }
+
+/* These are the section titles "About Me, Work, and Contact me*/
 
 h2 {
     font-size: 45px;
@@ -56,6 +62,8 @@ h2 {
     
 }
 
+/* h3 is the Education and Interests headings in the site */
+
 h3 {
     margin: 35px 15px;
     color: #e5625eff;
@@ -63,11 +71,15 @@ h3 {
     font-family: 'Avenir';
 }
 
+/* h4 is the title within the footer*/
+
 h4 {
     text-align: center;
     margin: 10px 0px;
     font-size: 25px;
 }
+
+/* This is the main text within any section of the website*/
 
 p {
     margin: 3px 15px;
@@ -75,14 +87,14 @@ p {
     font-family: 'Avenir';
 }
 
-
+/*first image refers to the image spanning across the top of the website */
 
 .firstImage figure img {
     width: 100%;
     height: 100%;
 }
 
-
+/* These are the left 20% of the screen and adds the bar to the right of them  */
 .section-title {
     flex-basis: 20%;
     border-right-style: solid;
@@ -92,12 +104,14 @@ p {
     
 }
 
+/*This is the image of Owen Newlove */
+
 .section-title img {
     margin: 10px 60px;
     width: 60%;
     height: 60%;
 }
-
+/* The right 80% of the website starting at about me down to contact me */
 .section-mainContent {
     flex-basis: 80%;
     display: flex;
@@ -107,19 +121,21 @@ p {
 }
 
 
-
+/* Allows the images to go to the next line if they are to big to fit side by side*/
 .section-mainContent figure {
     display: flex;
     flex-wrap: wrap;
 
 }
 
+/* The 4 smaller images on the site*/
+
 .section-mainContent figure img {
     width: 90%;
     height: 90%;
     margin: 5px 0px 5px 26px;
 }
-
+/* This styles the list with my contact information*/
 .section-mainContent ul {
     margin: 0px 25px;
     font-size: 25px;
@@ -132,6 +148,7 @@ p {
 
 }
 
+/* This is the top large image in the work section*/
 
 #firstWorkPicture {
     width: 79vw;
@@ -163,6 +180,8 @@ p {
     flex-wrap: wrap;
 
 }
+
+/* These media screens allow the website to look normal on smaller devices*/
 
 @media screen and (max-width: 992px) {
 
