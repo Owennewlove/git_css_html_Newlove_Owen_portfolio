@@ -22,7 +22,10 @@ N/A
 ## Usage
 
 The following link leads you to the github repository used when making this website:
-https://github.com/Owennewlove/git_css_html_code_refactory_hw1
+
+https://github.com/Owennewlove/git_css_html_Newlove_Owen_portfolio.git
+
+https://owennewlove.github.io/git_css_html_Newlove_Owen_portfolio/
 
 
 
