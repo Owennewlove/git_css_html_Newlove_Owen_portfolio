@@ -133,6 +133,7 @@ p {
 .smaller-picture {
     justify-content: center;
 }
+
 .section-mainContent figure img {
     width: 90%;
     height: 90%;
@@ -242,6 +243,7 @@ p {
         flex-wrap: wrap;
         flex-basis: 40%;
         margin-bottom: 20px;
+
  
     
     }
