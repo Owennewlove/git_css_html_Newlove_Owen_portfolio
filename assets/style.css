@@ -132,6 +132,7 @@ p {
 /* The 4 smaller images on the site*/
 .smaller-picture {
     justify-content: center;
+    width: 40%;
 }
 
 .section-mainContent figure img {
